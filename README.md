@@ -17,12 +17,13 @@
 
 ## 1. Preámbulo
 
-Los datos tienen poca relevancia si no están organizados, dificulta el entendimiento, analizis y toma de decisiones sobre un fenómeno. Para que los datos
-se conviertan en **información** util para los usuarios, necesitamos
+Los datos tienen poca relevancia si no están organizados, dificulta el entendimiento,
+análisis y toma de decisiones sobre un fenómeno. Para que los datos
+se conviertan en **información** útil para los usuarios, necesitamos
 procesar estos datos. Una manera simple de hacerlo es creando _interfaces_ interactivas
 y _visualizaciones_.
 
-Un caso especial, y además es crítico en los hospitales, es la gestión de los
+Un caso especial, y además crítico en los hospitales, es la gestión de los
 pacientes que llegan a la sala de emergencias según sus necesidades.
 El análisis de la información nos permite asignar médicos y salas,
 que son siempre escasas, a quienes más lo necesitan. Para lograrlo, existen sistemas
@@ -33,17 +34,20 @@ gravedad de acuerdo a la siguiente tabla:
 
 Los pacientes graves deben pasar inmediatamente a atenderse con un
 médico. Los de mediana gravedad deberán esperar por una camilla libre, si
-hay más de un paciente en esta categoría, se ordenarán según su hora de llegada, los demás pacientes se ordenarán primero por categoría de gravedad y luego
-por hora de llegada; Pasarán sólo si no hay alguien de mayor prioridad
+hay más de un paciente en esta categoría, se ordenarán según su hora de llegada,
+los demás pacientes se ordenarán primero por categoría de gravedad y luego
+por hora de llegada; pasarán sólo si no hay alguien de mayor prioridad
 esperando por atención.
 
 ## 2. Resumen del proyecto
 
 ![Free to use from https://pxhere.com/es/photo/599363](emergency-room.jpg)
 
-En esta ocasión desarrollaras una aplicación web para la gestión
-de filas/colas de la sala de emergencias de un hospital y que responda a los criterios. Esta vez tú misma tendrás que crear los datos con
-los que trabajarás. Ademas, podras trabajar de manera individual o en duplas, lo recomendado es que sea en dupla para seguir desarrollando habilidades de trabajo colaborativo. 
+En esta ocasión desarrollarás una aplicación web para la gestión de filas/colas
+de la sala de emergencias de un hospital y que responda a los criterios de gravedad
+antes descritos. Esta vez tú misma tendrás que crear los datos con los que trabajarás.
+Además, podrás trabajar de manera individual o en duplas, lo recomendado es que
+sea en dupla para seguir desarrollando tus habilidades de trabajo colaborativo.
 
 Este proyecto es agnóstico a la tecnología que uses, es decir puedes desarrollarlo
 con Vanilla JavaScript, algún _framework_  o biblioteca (librería) de tu elección.
@@ -66,9 +70,10 @@ de comenzar haciéndolo antes de escribir la funcionalidad.
 1. El objetivo principal de este proyecto es que te familiarices con el uso de
 arreglos y diccionarios, incluso que los combines para obtener estructuras de
 datos más complejas que te permitan resolver problemas grandes de datos.
-2. Dominar la manipulación(creación, modificación y eliminación de nodos) del DOM atraves de JavaScript para crear aplicaciones interactivas y
+2. Dominar la manipulación (creación, modificación y eliminación de nodos) del DOM
+a través de JavaScript para crear aplicaciones interactivas y
 dinámicas sin necesidad de tener todo en HTML o varios archivos de HTML.
-1. Usar eventos del DOM, como _clicks_ o entradas de texto, para interactuar
+3. Usar eventos del DOM, como _clicks_ o entradas de texto, para interactuar
 con los usuarios.
 4. Perfeccionar tus habilidades de diseño y CSS _responsive_ para lograr una
 interfaz que permita tener todos los elementos pedidos sin entorpecerse entre sí.
@@ -86,10 +91,11 @@ usuarios/as (mínimo 5 testeos de usabilidad).
 
 ## 4. Consideraciones generales
 
-* El trabajo puede ser hecho de manera individual o en dupla,lo recomendado es que sea en dupla para seguir desarrollando habilidades de trabajo colaborativo.
+* El trabajo puede ser hecho de manera individual o en dupla, lo recomendado es
+ que sea en dupla para seguir desarrollando habilidades de trabajo colaborativo.
 * Debes tener tu código alojado en *GitHub* usando *Git* y sus comandos *commit*,
  *push*, *pull*, etc.
-* Puedes realizar el despliege de tu aplicación en servicios como: [GitHub Pages](https://pages.github.com/), [Firebase Hosting](https://firebase.google.com/), [Netlify](https://www.netlify.com/), [Now Zeit](https://zeit.co/), [Surge](https://surge.sh/), etc..
+* Puedes realizar el despliege de tu aplicación en servicios como: [GitHub Pages](https://pages.github.com/), [Firebase Hosting](https://firebase.google.com/), [Netlify](https://www.netlify.com/), [Now Zeit](https://zeit.co/), [Surge](https://surge.sh/), etc.
 * Toma el tiempo necesario para completar el proyecto con la máxima calidad posible.
  Asume 3 semanas como una referencia inicial.
 * Tus pruebas unitarias deben tener una cobertura del 70% de _statements_.
